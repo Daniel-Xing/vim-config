@@ -24,6 +24,7 @@ local on_attach = function(client, bufnr)
 
     local options = { noremap=true, silent=true }
 
+
     -- 设置 normal 模式下的快捷键
     -- 第一个参数 n 表示 normal 模式
     -- 第二个参数表示按键

@@ -10,6 +10,20 @@ set colorcolumn=80
 " 高亮光标所在行
 set cursorline
 
+" 设置标签页快捷方式
+" 切换到上一个标签页
+nnoremap <Leader>tp :tabp<CR>
+" 切换到下一个标签页 
+nnoremap <Leader>tn :tabn<CR>
+" 关闭当前标签页和其中所有窗口
+nnoremap <Leader>tc :tabc<CR>
+" 只保留活动标签页，关闭其他所有标签页
+nnoremap <Leader>to :tabo<CR>
+" 切换到编号位n到标签页
+nnoremap <Leader>tN :tabn
+" 在新建标签页打开
+nnoremap <Leader>te :tabe
+
 " 跳转到上次退出到位置
 autocmd BufReadPost *
       \ if line("'\"") >= 1 && line("'\"") <= line("$")
