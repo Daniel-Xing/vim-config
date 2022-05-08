@@ -113,7 +113,7 @@ let g:NERDTreeWinSize = 24
 "==============================================================================
 "  nerdtree-git-plugin ??
 "==============================================================================
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "?",
     \ "Staged"    : "?",
     \ "Untracked" : "?",
@@ -126,7 +126,7 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
-let g:NERDTreeShowIgnoredStatus = 1
+let g:NERDTreeGitStatusShowIgnored = 1
 "==============================================================================
 "  majutsushi/tagbar 插件
 "==============================================================================
