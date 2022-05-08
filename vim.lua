@@ -11,6 +11,7 @@ require'nvim-treesitter.configs'.setup{
     indent = {
         enable = true,
     },
+
 }
 
 local on_attach = function(client, bufnr)
